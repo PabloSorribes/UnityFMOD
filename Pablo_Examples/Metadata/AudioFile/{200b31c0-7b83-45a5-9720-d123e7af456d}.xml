@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{200b31c0-7b83-45a5-9720-d123e7af456d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>32</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/FMOD - 120bpm_Bass {4374f240-59f2-49f6-ac03-77988697ed8f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+        </relationship>
+    </object>
+</objects>

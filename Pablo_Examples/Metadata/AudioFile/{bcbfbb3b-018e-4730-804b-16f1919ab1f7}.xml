@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.07.00">
+    <object class="AudioFile" id="{bcbfbb3b-018e-4730-804b-16f1919ab1f7}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>32</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/FMOD - 120bpm_Kick {c00c0226-6fbd-433e-a6af-d40e1731753f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{4c43130b-9186-4fb6-9d65-a9acdac70927}</destination>
+        </relationship>
+    </object>
+</objects>

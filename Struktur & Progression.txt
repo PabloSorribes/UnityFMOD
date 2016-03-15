@@ -1,0 +1,54 @@
+1. Negative Space 1		(chill ambience)
+2. Pickup1				(battle1)
+3. SentryGun1			(battle2)
+4. Pickup2				(battle1)
+4. Negative Space 2 	(another radio behind the building?)
+6. Negative Space 3 	(dark floor, 3D-sound, bleeds over wall. Ducks for Pickup4)
+7. SentryGun2			(battle2,)
+
+8. TUNNEL 				(CreepyTunnel music + reverb_Tunnel)
+(Checkpoint2)
+9. SentryGun3			(battle2)
+
+10. Pickup3				(battle1)
+(Checkpoint2)
+11. Pickup4 			(dark floor) 
+
+12. SentryGun4 			(battle2, the lift)
+
+13. CAVE 				(LavaMountain music + reverb_Cave)
+(Checkpoint3)
+14. SentryGun5			(battle2 - lava edition)
+15. Lava + Platform
+16. Pickup5				(battle1 - lava edition)
+
+17. End 				(radio + triumph OnTriggerEnter)
+
+
+DAY/NIGHT-cycle
+	Gustav Arneback:
+	Gör en bool som är sann när det är dag och falsk när det är natt baserat på vad vilket värde "condition timed" har i guess ^^
+
+SCRIPTING
+AIBehavior.cs
+	void Update()
+	{
+		if (hitpoints > 0) {
+			return;
+		}
+		else if (hitpoints == 0)
+		{
+			STOP MUSIC. Put parameter into end-state.
+			Destroy(gameObject);
+		}
+	}
+	
+Ambient music
+Pickup -> change parameter to more action (battle1)
+[DESTROY AIController] -> change parameter to ambient
+
+Sentry -> change parameter (battle2)
+Out of sentryRange -> change parameter to ambient
+
+ALT.
+Snapshots which handle the volumes of Ambient, Radio, battle1 & battle2
