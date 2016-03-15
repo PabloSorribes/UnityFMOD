@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioYard_student_fmod.CSharp.Plugins", "AudioYard_student_fmod.CSharp.Plugins.csproj", "{5CAD811E-6916-73CE-9D90-697315230A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioYard_student_fmod.CSharp", "AudioYard_student_fmod.CSharp.csproj", "{74954FAB-BD01-B53A-1555-C9DD4AF1962E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioYard_student_fmod.CSharp.Editor.Plugins", "AudioYard_student_fmod.CSharp.Editor.Plugins.csproj", "{23BA00F4-BF0C-1987-F803-7E824F0A9D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioYard_student_fmod.CSharp.Editor", "AudioYard_student_fmod.CSharp.Editor.csproj", "{DBFBA637-C614-B222-C051-6D983CC2ACEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CAD811E-6916-73CE-9D90-697315230A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CAD811E-6916-73CE-9D90-697315230A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CAD811E-6916-73CE-9D90-697315230A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CAD811E-6916-73CE-9D90-697315230A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74954FAB-BD01-B53A-1555-C9DD4AF1962E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74954FAB-BD01-B53A-1555-C9DD4AF1962E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74954FAB-BD01-B53A-1555-C9DD4AF1962E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74954FAB-BD01-B53A-1555-C9DD4AF1962E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23BA00F4-BF0C-1987-F803-7E824F0A9D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BA00F4-BF0C-1987-F803-7E824F0A9D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BA00F4-BF0C-1987-F803-7E824F0A9D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BA00F4-BF0C-1987-F803-7E824F0A9D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFBA637-C614-B222-C051-6D983CC2ACEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFBA637-C614-B222-C051-6D983CC2ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFBA637-C614-B222-C051-6D983CC2ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFBA637-C614-B222-C051-6D983CC2ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
